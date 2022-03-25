@@ -11,3 +11,9 @@ body,
   text-align: center;
   background-color: #eee9e4;
 }
+
+.cityImage {
+  width: auto;
+  height: 50rem;
+  margin: auto;
+}
