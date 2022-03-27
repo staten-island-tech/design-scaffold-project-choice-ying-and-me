@@ -9,14 +9,31 @@ body,
 
 .headerContainer {
   text-align: center;
-  background-color: #eee9e4;
-  margin-bottom: 6rem;
+  background-color: white;
+  margin-bottom: -25rem;
+}
+
+.backgroundImage {
+  width: 1980px;
+  height: 540px;
+  object-fit: cover;
+}
+
+.titleContainer {
+  width: 100%;
+  position: relative;
+  top: -35rem;
+  margin: auto;
 }
 
 .header {
   font-family: "Noto Serif", serif;
   font-size: 4rem;
-  padding-top: 15rem;
+}
+
+.header:hover {
+  color: white;
+  transition: 0.5s;
 }
 
 .name {
@@ -30,7 +47,11 @@ body,
   font-style: italic;
   font-weight: bold;
   font-size: 8rem;
-  padding-bottom: 15rem;
+}
+
+.title:hover {
+  color: white;
+  transition: 0.5s;
 }
 
 .cities {
@@ -42,6 +63,8 @@ body,
 
 .cityCard {
   text-align: center;
+  background-color: black;
+  margin-bottom: 6rem;
 }
 
 .cityImage {
@@ -49,10 +72,12 @@ body,
   height: 50rem;
   object-fit: cover;
   margin: auto;
+  display: block;
 }
 
 .cityImage:hover {
-  opacity: ;
+  opacity: 0.2;
+  transition: 0.5s;
 }
 
 .text-wrapper {
@@ -72,5 +97,4 @@ body,
   font-family: "Noto Serif", serif;
   font-size: 2rem;
   color: white;
-  margin: auto;
 }

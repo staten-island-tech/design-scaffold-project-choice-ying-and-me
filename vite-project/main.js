@@ -19,8 +19,8 @@ function makeCards() {
                     src=${cities.Image}
                 </a>
                 <div class="text-wrapper">
-                    <h2 class="cityName">${cities.City}</h2>
-                    <h2 class="cityCountry">${cities.Country}</h2>
+                    <h2 class="cityName"></h2>
+                    <h2 class="cityCountry"></h2>
                 </div>
             </div>
             `
