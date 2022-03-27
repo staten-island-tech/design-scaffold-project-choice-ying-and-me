@@ -44,6 +44,21 @@ const cities = [
         Country: "Italy",
         Image: "https://i2.wp.com/thetravelertwins.com/wp-content/uploads/2019/08/planatripto_20200211_003752_0.jpg?resize=373%2C463&ssl=1",
     },
+    {
+        City: "Copenhagen",
+        Country: "Denmark",
+        Image: "https://live.staticflickr.com/3743/11468585636_d7a9772842_b.jpg",
+    },
+    {
+        City: "Istanbul",
+        Country: "Turkey",
+        Image: "https://i.pinimg.com/originals/8a/db/cf/8adbcf1d1569e2120d72b3d173e763ab.jpg",
+    },
+    {
+        City: "Madrid",
+        Country: "Spain",
+        Image: "https://estaticos-cdn.elperiodico.com/clip/e395edda-6fbb-423f-9ca8-7de16493af4e_alta-libre-aspect-ratio_default_0.jpg",
+    },
 ];
 
 export { cities };

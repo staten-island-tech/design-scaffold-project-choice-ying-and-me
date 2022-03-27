@@ -18,8 +18,10 @@ function makeCards() {
                 <img class="cityImage" 
                     src=${cities.Image}
                 </a>
-                <h2 class="cityName">${cities.City}</h2>
-                <h2 class="cityCountry">${cities.Country}</h2>
+                <div class="text-wrapper">
+                    <h2 class="cityName">${cities.City}</h2>
+                    <h2 class="cityCountry">${cities.Country}</h2>
+                </div>
             </div>
             `
         )

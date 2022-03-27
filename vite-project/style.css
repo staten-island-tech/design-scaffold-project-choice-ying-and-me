@@ -10,10 +10,67 @@ body,
 .headerContainer {
   text-align: center;
   background-color: #eee9e4;
+  margin-bottom: 6rem;
+}
+
+.header {
+  font-family: "Noto Serif", serif;
+  font-size: 4rem;
+  padding-top: 15rem;
+}
+
+.name {
+  font-family: "Tangerine", cursive;
+  font-size: 5rem;
+  color: white;
+}
+
+.title {
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 8rem;
+  padding-bottom: 15rem;
+}
+
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cityCard {
+  text-align: center;
 }
 
 .cityImage {
-  width: auto;
+  width: 40rem;
   height: 50rem;
+  object-fit: cover;
+  margin: auto;
+}
+
+.cityImage:hover {
+  opacity: ;
+}
+
+.text-wrapper {
+  width: 100%;
+  position: relative;
+  top: -9rem;
+  margin: auto;
+}
+
+.cityName {
+  font-family: "Noto Serif", serif;
+  font-size: 4rem;
+  color: white;
+}
+
+.cityCountry {
+  font-family: "Noto Serif", serif;
+  font-size: 2rem;
+  color: white;
   margin: auto;
 }
