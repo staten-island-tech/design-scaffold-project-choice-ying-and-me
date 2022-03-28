@@ -10,7 +10,7 @@ body,
 .headerContainer {
   text-align: center;
   background-color: white;
-  margin-bottom: -25rem;
+  margin-bottom: -30rem;
 }
 
 .backgroundImage {
@@ -19,10 +19,32 @@ body,
   object-fit: cover;
 }
 
+.navContainer {
+  margin-top: -rem;
+}
+
+.name {
+  font-family: "Tangerine", cursive;
+  font-size: 5rem;
+  color: white;
+  position: relative;
+  top: -53rem;
+  margin-right: 170rem;
+}
+
+.navCities {
+  font-family: "Noto Serif", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+}
+
 .titleContainer {
   width: 100%;
   position: relative;
-  top: -35rem;
+  top: -40rem;
   margin: auto;
 }
 
@@ -34,12 +56,6 @@ body,
 .header:hover {
   color: white;
   transition: 0.5s;
-}
-
-.name {
-  font-family: "Tangerine", cursive;
-  font-size: 5rem;
-  color: white;
 }
 
 .title {
