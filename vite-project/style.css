@@ -7,6 +7,10 @@ body,
   font-size: 10px;
 }
 
+::selection {
+  background-color: #c9c9c9;
+}
+
 .headerContainer {
   text-align: center;
   background-color: white;
@@ -19,10 +23,6 @@ body,
   object-fit: cover;
 }
 
-.navContainer {
-  margin-top: -rem;
-}
-
 .name {
   font-family: "Tangerine", cursive;
   font-size: 5rem;
@@ -32,6 +32,12 @@ body,
   margin-right: 170rem;
 }
 
+.navContainer {
+  width: 100%;
+  position: relative;
+  top: -56rem;
+}
+
 .navCities {
   font-family: "Noto Serif", serif;
   font-size: 2rem;
@@ -39,6 +45,13 @@ body,
   background-color: transparent;
   background-repeat: no-repeat;
   border: none;
+}
+
+.navCities:hover {
+  color: white;
+  font-style: italic;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 
 .titleContainer {
