@@ -19,7 +19,7 @@ body,
 
 .backgroundImage {
   width: 1980px;
-  height: 540px;
+  height: 810px;
   object-fit: cover;
 }
 
@@ -28,47 +28,53 @@ body,
   font-size: 5rem;
   color: white;
   position: relative;
-  top: -53rem;
+  top: -80rem;
   margin-right: 170rem;
 }
 
 .navContainer {
   width: 100%;
   position: relative;
-  top: -56rem;
+  top: -83rem;
 }
 
 .navCities {
   font-family: "Noto Serif", serif;
   font-size: 2rem;
   font-weight: bold;
+  text-decoration: none;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid transparent;
   background-color: transparent;
   background-repeat: no-repeat;
-  border: none;
+  transition: all ease-in-out 0.5s;
 }
 
 .navCities:hover {
   color: white;
   font-style: italic;
-  text-decoration: underline;
-  transition: 0.5s;
+  font-weight: bolder;
+  border-bottom: 1px solid;
+  border-color: white;
 }
 
 .titleContainer {
   width: 100%;
   position: relative;
-  top: -40rem;
+  top: -57rem;
   margin: auto;
 }
 
 .header {
   font-family: "Noto Serif", serif;
   font-size: 4rem;
+  transition: all ease-in-out 0.5s;
 }
 
 .header:hover {
   color: white;
-  transition: 0.5s;
 }
 
 .title {
@@ -76,11 +82,11 @@ body,
   font-style: italic;
   font-weight: bold;
   font-size: 8rem;
+  transition: all ease-in-out 0.5s;
 }
 
 .title:hover {
   color: white;
-  transition: 0.5s;
 }
 
 .cities {
