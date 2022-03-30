@@ -29,13 +29,13 @@ body,
   color: white;
   position: relative;
   top: -80rem;
-  margin-right: 170rem;
+  margin-right: 172rem;
 }
 
 .navContainer {
   width: 100%;
   position: relative;
-  top: -83rem;
+  top: -83.5rem;
 }
 
 .navCities {
@@ -49,13 +49,11 @@ body,
   border-bottom: 1px solid transparent;
   background-color: transparent;
   background-repeat: no-repeat;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.75s;
 }
 
 .navCities:hover {
   color: white;
-  font-style: italic;
-  font-weight: bolder;
   border-bottom: 1px solid;
   border-color: white;
 }
@@ -70,7 +68,9 @@ body,
 .header {
   font-family: "Noto Serif", serif;
   font-size: 4rem;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.75s;
+  width: 35rem;
+  margin: auto;
 }
 
 .header:hover {
@@ -82,7 +82,9 @@ body,
   font-style: italic;
   font-weight: bold;
   font-size: 8rem;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.75s;
+  width: 30rem;
+  margin: auto;
 }
 
 .title:hover {
@@ -108,11 +110,11 @@ body,
   object-fit: cover;
   margin: auto;
   display: block;
+  transition: all ease-in-out 0.75s;
 }
 
 .cityImage:hover {
   opacity: 0.2;
-  transition: 0.5s;
 }
 
 .text-wrapper {
