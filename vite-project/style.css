@@ -120,13 +120,18 @@ body,
 .text-wrapper {
   width: 100%;
   position: relative;
-  top: -27rem;
+  top: -9rem;
   margin: auto;
 }
 
 .cityName {
   font-family: "Noto Serif", serif;
+  font-size: 4rem;
+  color: white;
+}
+
+.cityCountry {
+  font-family: "Noto Serif", serif;
   font-size: 2rem;
   color: white;
-  background-color: transparent;
 }
