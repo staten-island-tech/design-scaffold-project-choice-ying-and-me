@@ -99,13 +99,14 @@ body,
 }
 
 .cityCard {
+  position: relative;
   text-align: center;
-  background-color: black;
-  margin-bottom: 6rem;
+  width: 40rem;
+  margin-bottom: 2rem;
 }
 
 .cityImage {
-  width: 40rem;
+  width: 100%;
   height: 50rem;
   object-fit: cover;
   margin: auto;
@@ -118,20 +119,28 @@ body,
 }
 
 .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  position: relative;
-  top: -9rem;
-  margin: auto;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all ease-in-out 0.75s;
+}
+
+.text-wrapper:hover {
+  opacity: 1;
 }
 
 .cityName {
   font-family: "Noto Serif", serif;
-  font-size: 4rem;
-  color: white;
-}
-
-.cityCountry {
-  font-family: "Noto Serif", serif;
+  font-weight: 500;
   font-size: 2rem;
   color: white;
 }

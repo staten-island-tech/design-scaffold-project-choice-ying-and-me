@@ -7,12 +7,12 @@ const cities = [
     {
         City: "Paris",
         Country: "France",
-        Image: "https://images.unsplash.com/photo-1568684333877-4d39f2c871c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFyaXMlMjBuaWdodHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        Image: "https://media.cntraveler.com/photos/592da6f1edb00428eb63d4b2/master/w_1920%2Cc_limit/eiffel-GettyImages-490188084.jpg",
     },
     {
         City: "Moscow",
         Country: "Russia",
-        Image: "https://images.unsplash.com/photo-1519906448142-1176f5530f5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9zY293JTIwbmlnaHR8ZW58MHx8MHx8&w=1000&q=80",
+        Image: "https://live.staticflickr.com/65535/48674219341_543d69c5ab_b.jpg",
     },
     {
         City: "Vienna",
@@ -20,9 +20,9 @@ const cities = [
         Image: "https://2srlg717807wbcsn21akmkj1-wpengine.netdna-ssl.com//wp-content/uploads/2019/11/vienna-by-night-vienna-wurstelstand-12.jpg",
     },
     {
-        City: "Berlin",
-        Country: "Germany",
-        Image: "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVybGluJTIwbmlnaHR8ZW58MHx8MHx8&w=1000&q=80",
+        City: "Barcelona",
+        Country: "Spain",
+        Image: "https://d39ghehfp8sbx4.cloudfront.net/media/img/1/9d6779ac-c931-4aa3-84f3-c4457fd85166-1400.jpg?placeid=4301&name=Tibidabo&lat=41.422501&lng=2.118611",
     },
     {
         City: "Rome",
