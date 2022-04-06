@@ -5,6 +5,11 @@ body,
   padding: 0;
   box-sizing: border-box;
   font-size: 10px;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 ::selection {
@@ -102,7 +107,7 @@ body,
   position: relative;
   text-align: center;
   width: 40rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .cityImage {

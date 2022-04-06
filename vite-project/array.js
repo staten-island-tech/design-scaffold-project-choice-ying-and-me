@@ -20,19 +20,19 @@ const cities = [
         Image: "https://2srlg717807wbcsn21akmkj1-wpengine.netdna-ssl.com//wp-content/uploads/2019/11/vienna-by-night-vienna-wurstelstand-12.jpg",
     },
     {
-        City: "Barcelona",
-        Country: "Spain",
-        Image: "https://d39ghehfp8sbx4.cloudfront.net/media/img/1/9d6779ac-c931-4aa3-84f3-c4457fd85166-1400.jpg?placeid=4301&name=Tibidabo&lat=41.422501&lng=2.118611",
-    },
-    {
-        City: "Rome",
-        Country: "Italy",
-        Image: "https://live.staticflickr.com/3770/9073305789_45c91de7da_b.jpg",
-    },
-    {
         City: "Amsterdam",
         Country: "Netherlands",
-        Image: "https://wallpapercave.com/wp/wp6892581.jpg",
+        Image: "https://images.fineartamerica.com/images-medium-large-5/new-amsterdam-1-juan-pablo-de.jpg",
+    },
+    {
+        City: "Reykjavík",
+        Country: "Iceland",
+        Image: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/solfar-sun-voyager-iceland-pierre-leclerc-photography.jpg",
+    },
+    {
+        City: "Santorini",
+        Country: "Greece",
+        Image: "https://a.cdn-hotels.com/gdcs/production61/d230/f095e150-f585-11e8-b8fa-0242ac11000d.jpg",
     },
     {
         City: "Athens",
@@ -42,7 +42,7 @@ const cities = [
     {
         City: "Venice",
         Country: "Italy",
-        Image: "https://i2.wp.com/thetravelertwins.com/wp-content/uploads/2019/08/planatripto_20200211_003752_0.jpg?resize=373%2C463&ssl=1",
+        Image: "https://www.peternestler.com/wp-content/uploads/012A3745_ponte_dell-accademia_sunrise_venice-Copy.jpg",
     },
     {
         City: "Copenhagen",
