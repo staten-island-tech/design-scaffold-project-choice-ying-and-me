@@ -1,4 +1,4 @@
-import './style.css'
+import "../styles/style.css";
 import { cities } from "./array";
 
 console.log(cities)
@@ -16,7 +16,8 @@ function makeCards() {
             `
             <div class="cityCard">
                 <img class="cityImage" 
-                    src=${cities.Image}>
+                    src=${cities.Image}
+                    alt="${cities.City}">
                 <div class="text-wrapper">
                     <h2 class="cityName">${cities.City}, ${cities.Country}</h2>
                 </div>
