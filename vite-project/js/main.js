@@ -1,5 +1,6 @@
 import "../styles/style.css";
 import { cities } from "./array";
+import { gsap } from "gsap";
 
 console.log(cities)
 

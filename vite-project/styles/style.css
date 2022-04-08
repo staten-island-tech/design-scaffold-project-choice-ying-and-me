@@ -16,10 +16,9 @@ body::-webkit-scrollbar {
   background-color: #c9c9c9;
 }
 
-.headerContainer {
+.header {
+  position: relative;
   text-align: center;
-  background-color: white;
-  margin-bottom: -30rem;
 }
 
 .backgroundImage {
@@ -28,71 +27,39 @@ body::-webkit-scrollbar {
   object-fit: cover;
 }
 
-.name {
-  font-family: "Tangerine", cursive;
-  font-size: 5rem;
-  color: white;
-  position: relative;
-  top: -80rem;
-  margin-right: 172rem;
-}
-
-.navContainer {
+.headerContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  position: relative;
-  top: -83.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.navCities {
-  font-family: "Noto Serif", serif;
-  font-size: 2rem;
-  font-weight: bold;
-  text-decoration: none;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
-  border-bottom: 1px solid transparent;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  transition: all ease-in-out 0.75s;
-}
-
-.navCities:hover {
-  color: white;
-  border-bottom: 1px solid;
-  border-color: white;
-}
-
-.titleContainer {
-  width: 100%;
-  position: relative;
-  top: -57rem;
-  margin: auto;
-}
-
-.header {
+.Continent {
   font-family: "Noto Serif", serif;
   font-size: 4rem;
   transition: all ease-in-out 0.75s;
   width: 35rem;
-  margin: auto;
 }
 
-.header:hover {
+.Continent:hover {
   color: white;
 }
 
-.title {
+.Europe {
   font-family: "Noto Serif", serif;
   font-style: italic;
   font-weight: bold;
   font-size: 8rem;
   transition: all ease-in-out 0.75s;
   width: 30rem;
-  margin: auto;
 }
 
-.title:hover {
+.Europe:hover {
   color: white;
 }
 
@@ -117,10 +84,6 @@ body::-webkit-scrollbar {
   margin: auto;
   display: block;
   transition: all ease-in-out 0.75s;
-}
-
-.cityImage:hover {
-  opacity: 0.2;
 }
 
 .text-wrapper {
