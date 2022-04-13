@@ -1,6 +1,7 @@
 import "../styles/style.css";
 import { cities } from "./array";
 import { gsap } from "gsap";
+import VanillaTilt from "vanilla-tilt";
 
 console.log(cities)
 
@@ -29,7 +30,17 @@ function makeCards() {
 }
 makeCards();
 
+const DOMSelectors = {
+    cities: document.querySelector(".cities"),
+}
+
 window.addEventListener("scroll", function(){
-    var nav = document.querySelector("nav");
+    const nav = document.querySelector("nav");
     nav.classList.toggle("sticky", window.scrollY > 0);
 })
+
+VanillaTilt.init(document.querySelector(".cityCard"), {
+    max: 5,
+    speed: 2000,
+    reverse: true,
+});
