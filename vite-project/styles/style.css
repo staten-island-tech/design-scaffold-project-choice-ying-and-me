@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
 }
 
 ::selection {
-  background-color: #c9c9c9;
+  background-color: #545454;
 }
 
 nav {
