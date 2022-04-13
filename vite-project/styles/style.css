@@ -16,6 +16,36 @@ body::-webkit-scrollbar {
   background-color: #c9c9c9;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8rem;
+  background-color: #404040;
+  font-family: "Noto Serif", serif;
+}
+
+.name {
+  color: white;
+  font-size: 4rem;
+  font-family: "Tangerine", cursive;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
 .header {
   position: relative;
   text-align: center;
