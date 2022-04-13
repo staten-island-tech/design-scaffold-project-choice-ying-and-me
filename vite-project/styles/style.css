@@ -17,33 +17,62 @@ body::-webkit-scrollbar {
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8rem;
-  background-color: #404040;
+  background-color: transparent;
   font-family: "Noto Serif", serif;
+  transition: all ease-in-out 0.5s;
+  z-index: 1;
+}
+
+nav.sticky{
+  background: rgb(144, 104, 92);
 }
 
 .name {
+  position: relative;
   color: white;
   font-size: 4rem;
   font-family: "Tangerine", cursive;
+  transition: all ease-in-out 0.75s;
 }
 
-.nav-links {
+.navLink {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 50%;
 }
 
-.nav-links li {
+.navLink li{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
 
-.nav-links a {
+.navLink a{
   color: white;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.75s;
+}
+
+.navLink a:hover {
+  font-weight: bolder;
+  border-bottom: 1px solid;
+  border-color: white;
 }
 
 .header {
@@ -53,7 +82,7 @@ nav {
 
 .backgroundImage {
   width: 1980px;
-  height: 810px;
+  height: 937px;
   object-fit: cover;
 }
 
