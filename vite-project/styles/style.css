@@ -160,6 +160,8 @@ nav.sticky {
   justify-content: center;
   opacity: 0;
   transition: all ease-in-out 0.75s;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
 }
 
 .text-wrapper:hover {
@@ -171,4 +173,6 @@ nav.sticky {
   font-weight: 500;
   font-size: 2rem;
   color: white;
+  transition: all ease-in-out 0.75s;
+  transform: translateZ(20px);
 }

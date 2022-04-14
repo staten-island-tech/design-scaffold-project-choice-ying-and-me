@@ -39,8 +39,8 @@ window.addEventListener("scroll", function(){
     nav.classList.toggle("sticky", window.scrollY > 0);
 })
 
-VanillaTilt.init(document.querySelector(".cityCard"), {
-    max: 5,
+VanillaTilt.init(document.querySelectorAll(".cityCard"), {
+    max: 10,
     speed: 2000,
     reverse: true,
 });
