@@ -40,7 +40,7 @@ window.addEventListener("scroll", function(){
 })
 
 VanillaTilt.init(document.querySelectorAll(".cityCard"), {
-    max: 10,
-    speed: 2000,
+    max: 5,
+    speed: 5000,
     reverse: true,
 });
