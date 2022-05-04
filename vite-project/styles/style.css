@@ -38,10 +38,14 @@ nav.sticky {
 
 .name {
   position: relative;
-  color: white;
+  color: black;
   font-size: 4rem;
   font-family: "Tangerine", cursive;
   transition: all ease-in-out 0.75s;
+}
+
+nav.sticky .name {
+  color: white;
 }
 
 .navLink {
@@ -59,7 +63,7 @@ nav.sticky {
 }
 
 .navLink a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5rem;
@@ -70,16 +74,24 @@ nav.sticky {
   transition: all ease-in-out 0.75s;
 }
 
+nav.sticky a {
+  color: white;
+}
+
+nav.sticky a:hover {
+  color: white;
+  border-color: white;
+}
+
 .navLink a:hover {
   font-weight: bolder;
   border-bottom: 1px solid;
-  border-color: white;
+  border-color: black;
 }
 
 .header {
   position: relative;
   text-align: center;
-  margin-bottom: 5rem;
 }
 
 .backgroundImage {
@@ -129,6 +141,8 @@ nav.sticky {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
+  background-color: rgb(255, 246, 232);
+  padding-top: 10rem;
 }
 
 .cityCard {

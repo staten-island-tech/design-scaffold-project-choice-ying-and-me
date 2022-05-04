@@ -1,7 +1,17 @@
 import "../styles/style.css";
 import { cities } from "./array";
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import VanillaTilt from "vanilla-tilt";
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(".headerContainer", {
+    scrollTrigger: {
+        trigger: ".headerContainer",
+        
+    }
+})
 
 console.log(cities)
 
