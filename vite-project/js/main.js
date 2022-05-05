@@ -6,11 +6,13 @@ import VanillaTilt from "vanilla-tilt";
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".headerContainer", {
+gsap.to("#Cities", {
     scrollTrigger: {
-        trigger: ".headerContainer",
-        
-    }
+        trigger: "#Cities",
+        scrub: 2,
+    },
+    y: -100,
+    duration: 5,
 })
 
 console.log(cities)
