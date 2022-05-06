@@ -8,11 +8,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.to("#Cities", {
     scrollTrigger: {
-        trigger: "#Cities",
-        scrub: 2,
+        scrub: 1,
     },
-    y: -100,
-    duration: 5,
+    y: 0,
 })
 
 console.log(cities)
