@@ -4,13 +4,12 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import VanillaTilt from "vanilla-tilt";
 
-gsap.registerPlugin(ScrollTrigger);
+const parrallax = document.getElementById("");
 
-gsap.to("#Cities", {
-    scrollTrigger: {
-        scrub: 1,
-    },
-    y: 0,
+window.addEventListener("scroll", function ()
+{
+    let offset = window.pageYOffset;
+    parallax.style.backgroundPositionY = offset * 0.7 + "px";
 })
 
 console.log(cities)
