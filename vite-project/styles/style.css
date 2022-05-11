@@ -176,3 +176,71 @@ nav.sticky {
   color: white;
   transition: all ease-in-out 0.75s;
 }
+
+.footer {
+  background-color: rgb(130, 72, 55);
+}
+
+.socials {
+  text-align: center;
+}
+
+.socialsHeader {
+  position: relative;
+  color: white;
+  font-size: 4rem;
+  font-family: "Tangerine", cursive;
+  padding-top: 1rem;
+}
+
+.socialsLink li {
+  margin-top: 1rem;
+}
+
+.socialsLink a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.75s;
+}
+
+.socialsLink a:hover {
+  font-weight: bolder;
+  border-bottom: 1px solid;
+  border-color: white;
+}
+
+.address {
+  text-align: center;
+}
+
+.addressHeader {
+  position: relative;
+  color: white;
+  font-size: 4rem;
+  font-family: "Tangerine", cursive;
+  padding-top: 1rem;
+}
+
+.address a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.75s;
+}
+
+.address a:hover {
+  font-weight: bolder;
+  border-bottom: 1px solid;
+  border-color: white;
+}
