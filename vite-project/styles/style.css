@@ -215,11 +215,11 @@ nav.sticky {
   border-color: white;
 }
 
-.address {
+.information {
   text-align: center;
 }
 
-.addressHeader {
+.informationHeader {
   position: relative;
   color: white;
   font-size: 4rem;
@@ -227,20 +227,18 @@ nav.sticky {
   padding-top: 1rem;
 }
 
-.address a {
+.information a {
+  text-decoration: none;
+}
+
+.address h2 {
   color: white;
   text-decoration: none;
-  font-weight: bold;
   font-size: 2rem;
+  transition: all ease-in-out 0.75s;
   border-top: transparent;
   border-left: transparent;
   border-right: transparent;
   border-bottom: 1px solid transparent;
-  transition: all ease-in-out 0.75s;
-}
-
-.address a:hover {
-  font-weight: bolder;
-  border-bottom: 1px solid;
-  border-color: white;
+  margin-top: 1rem;
 }
