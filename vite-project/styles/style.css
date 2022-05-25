@@ -177,6 +177,23 @@ nav.sticky {
   transition: all ease-in-out 0.75s;
 }
 
+.landmarks {
+}
+
+.landmarkContainer {
+  height: 40rem;
+  width: 100rem;
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.landmarkImage {
+  height: 100%;
+  width: 50rem;
+  object-fit: cover;
+}
+
 .footer {
   background-color: rgb(130, 72, 55);
 }
