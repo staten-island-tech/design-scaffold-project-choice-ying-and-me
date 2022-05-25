@@ -78,25 +78,22 @@ nav.sticky {
 
 .header {
   position: relative;
+  background-image: url(https://live.staticflickr.com/143/345030234_f4c75a7da8_b.jpg);
+  background-size: cover;
   text-align: center;
-}
-
-.backgroundImage {
-  width: 1980px;
-  height: 1080px;
-  object-fit: cover;
+  height: 108rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
 }
 
 .headerContainer {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  top: 40%;
 }
 
 .Continent {
@@ -104,6 +101,7 @@ nav.sticky {
   font-size: 4rem;
   transition: all ease-in-out 0.75s;
   width: 35rem;
+  margin: auto;
 }
 
 .Continent:hover {
@@ -117,6 +115,7 @@ nav.sticky {
   font-size: 8rem;
   transition: all ease-in-out 0.75s;
   width: 30rem;
+  margin: auto;
 }
 
 .Europe:hover {
