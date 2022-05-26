@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,700&family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,700&family=Roboto&family=Tangerine&display=swap" rel="stylesheet">
     <title>Vite App</title>
   </head>
   <body>
@@ -17,8 +17,8 @@
       <ul class="navLink">
         <li><a href="#">Home</a></li>
         <li><a href="#Cities">Cities</a></li>
-        <li><a href="#Landmarks">Landmarks</a></li>
-        <li><a href="#">Placeholder</a></li>
+        <li><a href="#Destinations">Destinations</a></li>
+        <li><a href="#Travel">Travel</a></li>
       </ul>
     </nav>
     <header>
@@ -32,18 +32,37 @@
     <div class="cities" id="Cities">
       <div class="cityCard"></div>
     </div>
-    <section class="landmark" id="Landmarks">
-      <div class="landmarks">
-        <img class="map" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Blank_map_of_Europe_%28with_disputed_regions%29.svg/680px-Blank_map_of_Europe_%28with_disputed_regions%29.svg.png" alt="Europe Map">
-        <section class="landmarkContainer">
-          <img class="landmarkImage" src="https://www.tech4law.co.za/wp-content/uploads/2019/09/Buckingham-Palace-at-night.jpg" alt="Buckingham Palace">
-        </section>
-        <section class="landmarkContainer">
-          <img class="landmarkImage" src="https://www.toureiffel.paris/sites/default/files/styles/1440x810_diaporama/public/2020-04/Tour%20enti%C3%A8re%20de%20nuit.jpg?itok=zUJdDJFq" alt="Eiffel Tower">
-        </section>
-        <section class="landmarkContainer">
-          <img class="landmarkImage" src="https://www.white-ibiza.com/wp-content/uploads/2020/03/ibiza-fine-dining-amante-ibiza-2019-01.jpg" alt="Ibiza Beach">
-        </section>
+    <section id="Destinations">
+      <div class="destinationContainer">
+        <div class="eiffel">
+          <img class="eiffelImage" src="https://images.unsplash.com/photo-1568321612313-209650d5d99a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80" alt="Eiffel Tower" id="skewElem">
+          <h2 class="destination">Tour Eiffel, France</h2>
+        </div>
+        <div class="destinations">
+          <h1>Destinations</h1>
+          <h2>Welcome to Europe, where you will find some of the most beautiful destinations throughout the world.</h2>
+        </div>
+        <div class="buckingham">
+          <img class="buckinghamImage" src="https://www.tech4law.co.za/wp-content/uploads/2019/09/Buckingham-Palace-at-night.jpg" alt="Buckingham Palace" id="skewElem">
+          <h2 class="destination">Buckingham Palace, United Kingdom</h2>
+        </div>
+        <div class="ibiza">
+          <img class="ibizaImage" src="https://www.white-ibiza.com/wp-content/uploads/2020/03/ibiza-fine-dining-amante-ibiza-2019-01.jpg" alt="Ibiza Beach" id="skewElem">
+          <h2 class="destination">Ibiza, España</h2>
+        </div>
+        <div class="colosseum">
+          <img class="colosseumImage" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Colosseo_notturna.JPG" alt="Roman Colosseum" id="skewElem">
+          <h2 class="destination">Colosseo, Italia</h2>
+        </div>
+      </div>
+    </section>
+    <section id="Travel">
+      <div class="travelContainer">
+        <div class="passport">
+          <h1>And of course...</h1>
+          <h2>You'll need a passport in order to explore these amazing and historical places.</h2>
+        </div>
+        <img class="passportUS" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/american-passport-cover-serge-averbukh.jpg" alt="American Passport">
       </div>
     </section>
     <footer class="footer">

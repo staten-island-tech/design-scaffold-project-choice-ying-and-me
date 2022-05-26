@@ -176,21 +176,160 @@ nav.sticky {
   transition: all ease-in-out 0.75s;
 }
 
-.landmarks {
+.eiffel {
+  width: 80rem;
+  margin-left: 30rem;
+  margin-top: 20rem;
 }
 
-.landmarkContainer {
-  height: 40rem;
-  width: 100rem;
-  margin: auto;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
-.landmarkImage {
-  height: 100%;
-  width: 50rem;
+.eiffelImage {
+  width: 100%;
+  height: 90rem;
   object-fit: cover;
+  transition: all ease-in-out 0.75s;
+}
+
+.eiffel:hover .destination{
+  color: black;
+}
+
+.eiffel:hover .eiffelImage {
+  opacity: 0.85;
+}
+
+.eiffel-wrapper:hover {
+  opacity: 1;
+}
+
+.destination {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  transition: all ease-in-out 0.75s;
+  margin-top: 1rem;
+}
+
+.destinations {
+  width: 40rem;
+  position: absolute;
+  right: 35rem;
+  top: 308rem;
+}
+
+.destinations h1{
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.destinations h2{
+  font-size: 4rem;
+  margin-top: 4rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+.buckingham {
+  width: 50rem;
+  margin-left: 115rem;
+  margin-top: -30rem;
+}
+
+.buckinghamImage {
+  width: 100%;
+  height: 60rem;
+  object-fit: cover;
+  transition: all ease-in-out 0.75s;
+}
+
+.buckingham:hover .destination{
+  color: black;
+}
+
+.buckingham:hover .buckinghamImage {
+  opacity: 0.85;
+}
+
+.ibiza {
+  width: 60rem;
+  margin-left: 40rem;
+  margin-top: -20rem;
+}
+
+.ibizaImage {
+  width: 100%;
+  height: 70rem;
+  object-fit: cover;
+  transition: all ease-in-out 0.75s;
+}
+
+.ibiza:hover .destination{
+  color: black;
+}
+
+.ibiza:hover .ibizaImage {
+  opacity: 0.85;
+}
+
+.colosseum {
+  width: 40rem;
+  margin-top: -40rem;
+  margin-left: 110rem;
+  margin-bottom: 20rem;
+}
+
+.colosseumImage {
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+  transition: all ease-in-out 0.75s;
+}
+
+.colosseum:hover .destination{
+  color: black;
+}
+
+.colosseum:hover .colosseumImage {
+  opacity: 0.85;
+}
+
+.passport {
+  width: 60rem;
+  margin-left: 30rem;
+  padding-top: 40rem;
+}
+
+.passport h1{
+  font-size: 6rem;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-bottom: 2rem;
+  transition: all ease-in-out 0.75s;
+}
+
+.passport h1:hover{
+  transform: translate(0, -2rem);
+}
+
+.passport h2{
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  transition: all ease-in-out 0.75s;
+}
+
+.passport h2:hover{
+  transform: translate(0, -2rem);
+}
+
+#Travel {
+  background-color: rgb(130, 72, 55);
+}
+
+.passportUS {
+  width: 40rem;
+  margin-left: 100rem;
+  margin-top: -30rem;
+  margin-bottom: 20rem;
 }
 
 .footer {

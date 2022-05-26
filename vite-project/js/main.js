@@ -48,8 +48,55 @@ window.addEventListener("scroll", function(){
     nav.classList.toggle("sticky", window.scrollY > 0);
 })
 
+let proxy = { skew: 0 },
+    skewSetter = gsap.quickSetter("#skewElem", "skewY", "deg"),
+    clamp = gsap.utils.clamp(-20, 20);
+
+ScrollTrigger.create({
+  onUpdate: (self) => {
+    let skew = clamp(self.getVelocity() / -300);
+    if (Math.abs(skew) > Math.abs(proxy.skew)) {
+      proxy.skew = skew;
+      gsap.to(proxy, {skew: 0, duration: 0.8, ease: "power3", overwrite: true, onUpdate: () => skewSetter(proxy.skew)});
+    }
+  }
+});
+
+
 VanillaTilt.init(document.querySelectorAll(".cityCard"), {
     max: 5,
     speed: 5000,
     reverse: true,
+});
+
+VanillaTilt.init(document.querySelectorAll(".eiffelImage"), {
+    max: 2,
+    speed: 5000,
+    reverse: true,
+});
+
+VanillaTilt.init(document.querySelectorAll(".buckinghamImage"), {
+    max: 2,
+    speed: 5000,
+    reverse: true,
+});
+
+VanillaTilt.init(document.querySelectorAll(".ibizaImage"), {
+    max: 2,
+    speed: 5000,
+    reverse: true,
+});
+
+VanillaTilt.init(document.querySelectorAll(".colosseumImage"), {
+    max: 2,
+    speed: 5000,
+    reverse: true,
+});
+
+VanillaTilt.init(document.querySelectorAll(".passportUS"), {
+    max: 5,
+    speed: 5000,
+    reverse: true,
+    glare: true,
+    maxGlare: .5,
 });
