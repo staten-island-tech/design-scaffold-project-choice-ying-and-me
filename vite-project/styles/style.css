@@ -189,7 +189,7 @@ nav.sticky {
   transition: all ease-in-out 0.75s;
 }
 
-.eiffel:hover .destination{
+.eiffel:hover .destination {
   color: black;
 }
 
@@ -204,7 +204,7 @@ nav.sticky {
 .destination {
   font-size: 2rem;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   transition: all ease-in-out 0.75s;
   margin-top: 1rem;
 }
@@ -216,15 +216,15 @@ nav.sticky {
   top: 308rem;
 }
 
-.destinations h1{
+.destinations h1 {
   font-size: 2rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.destinations h2{
+.destinations h2 {
   font-size: 4rem;
   margin-top: 4rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: lighter;
 }
 
@@ -241,7 +241,7 @@ nav.sticky {
   transition: all ease-in-out 0.75s;
 }
 
-.buckingham:hover .destination{
+.buckingham:hover .destination {
   color: black;
 }
 
@@ -262,7 +262,7 @@ nav.sticky {
   transition: all ease-in-out 0.75s;
 }
 
-.ibiza:hover .destination{
+.ibiza:hover .destination {
   color: black;
 }
 
@@ -284,7 +284,7 @@ nav.sticky {
   transition: all ease-in-out 0.75s;
 }
 
-.colosseum:hover .destination{
+.colosseum:hover .destination {
   color: black;
 }
 
@@ -298,26 +298,26 @@ nav.sticky {
   padding-top: 40rem;
 }
 
-.passport h1{
+.passport h1 {
   font-size: 6rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
   margin-bottom: 2rem;
   transition: all ease-in-out 0.75s;
 }
 
-.passport h1:hover{
+.passport h1:hover {
   transform: translate(0, -2rem);
 }
 
-.passport h2{
+.passport h2 {
   font-size: 3rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
   transition: all ease-in-out 0.75s;
 }
 
-.passport h2:hover{
+.passport h2:hover {
   transform: translate(0, -2rem);
 }
 
